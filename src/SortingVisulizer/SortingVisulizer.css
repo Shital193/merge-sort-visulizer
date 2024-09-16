@@ -1,0 +1,85 @@
+.array-container{
+    display: flex;
+    flex-direction: column;
+    left:100px;
+    right:100px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #365486;
+}
+.array-bar-out{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.array-bar{
+    width:2px;
+    background-color: #7FC7D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:2px 1px;
+}
+
+.generatenew{
+    height: 40px;
+    background-color: #DCF2F1;
+    border-radius: 5px;
+    border: 1.5px solid ;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.generatenew {
+  transition-duration: 0.7s;
+}
+
+.generatenew:hover {
+  background-color: #7FC7D9; 
+  color: white;
+}
+
+.merge{
+     height: 40px;
+    background-color: #DCF2F1;
+    border: 1.5px solid ;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.merge{
+    transition-duration: 0.7s;
+
+}
+.merge:hover {
+  background-color: #7FC7D9; 
+  color: white;
+}
+
+.test{
+    height: 40px;
+    background-color: #DCF2F1;
+    border-radius: 5px;
+    border: 1.5px solid ;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.test{
+    transition-duration: 0.7s;
+
+}
+.test:hover {
+  background-color: #7FC7D9; 
+  color: white;
+}
